@@ -39,6 +39,6 @@ models:
   my_new_project:
     # Applies to all files under models/example/
     JsonData:
-      +materialized: table
+      +materialized: view
     XML_Data:
-      +materialized: table
+      +materialized: view
